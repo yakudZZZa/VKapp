@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  Weather
+//  VKapp
 //
-//  Created by Евгений Иванов on 05/11/2018.
-//  Copyright © 2018 Евгений Иванов. All rights reserved.
+//  Created by Евгений Иванов on 07/02/2019.
+//  Copyright © 2019 Евгений Иванов. All rights reserved.
 //
 
 import UIKit
