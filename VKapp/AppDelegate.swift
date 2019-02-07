@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  VKapp
+//  Weather
 //
-//  Created by Евгений Иванов on 07/02/2019.
-//  Copyright © 2019 Евгений Иванов. All rights reserved.
+//  Created by Евгений Иванов on 05/11/2018.
+//  Copyright © 2018 Евгений Иванов. All rights reserved.
 //
 
 import UIKit
@@ -12,9 +12,11 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        window?.backgroundColor = UIColor.white
         // Override point for customization after application launch.
         return true
     }
