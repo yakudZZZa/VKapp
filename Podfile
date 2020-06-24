@@ -7,7 +7,7 @@ target 'VKapp' do
 
   # Pods for VKapp
 
-  pod 'Alamofire'
+  pod 'Alamofire', '~> 4.8.0'
   pod 'SwiftyJSON'
   pod 'Kingfisher'
   pod 'RealmSwift'

@@ -16,7 +16,7 @@ class DatabaseService {
         
         let realm = try Realm(configuration: config)
         try realm.write {
-            realm.add(items, update: true)
+            realm.add(items, update: .all)
         }
         
         return realm
@@ -27,7 +27,7 @@ class DatabaseService {
         do {
             let realm = try Realm(configuration: config)
             realm.beginWrite()
-            realm.add(data, update: true)
+            realm.add(data, update: .all)
             try realm.commitWrite()
         } catch {
             print(error)
